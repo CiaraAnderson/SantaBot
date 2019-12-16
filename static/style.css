@@ -17,12 +17,12 @@ h3 {
     margin-top: 3px;
     text-align: center;
 }
-
+/*anything changed here affects the box that holds the whole conversation*/
 .messagecontainer{
 	width: 100%;
 	max-width: 750px;
 	margin-left: auto; margin-right: auto;
-  background-color: #ccc;
+  background-color: white;
   padding:3px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
@@ -45,7 +45,7 @@ h3 {
 }
 
 #userInput {
-    background-color: #fff;
+    background-color: white;
     margin-left: auto;
     margin-right: auto;
     /*width: 40%;*/
@@ -88,7 +88,7 @@ h3 {
     font-size: 17px;
     text-align: left;
     line-height: 20px;
-    background-color: #0000FF;
+    background-color: #e63900;
     padding: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
@@ -96,8 +96,8 @@ h3 {
 }
 
 .botText {
-    background-color: #F2B100;
-    color: black;
+    background-color: #006600;
+    color: white;
     font-family: monospace;
     font-size: 17px;
     text-align: left;
